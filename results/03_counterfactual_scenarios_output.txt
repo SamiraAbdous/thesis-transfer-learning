@@ -1,0 +1,89 @@
+Baseline Forecasted Future Features:
+   Tourism expenditures  Tourism receipts  receipts_per_tourist  \
+0          2.362647e+08      4.118242e+07             71.022604   
+1          2.385513e+08      3.944167e+07             69.332200   
+2          2.408600e+08      3.777450e+07             67.682030   
+3          2.431910e+08      3.617780e+07             66.071136   
+4          2.455447e+08      3.464859e+07             64.498582   
+5          2.479211e+08      3.318402e+07             62.963457   
+6          2.503205e+08      3.178135e+07             61.464869   
+7          2.527431e+08      3.043798e+07             60.001948   
+8          2.551891e+08      2.915138e+07             58.573847   
+9          2.576589e+08      2.791918e+07             57.179735   
+   expenditures_per_tourist  tourism_balance  year  
+0                407.458615       -191000000  2023  
+1                419.335290       -191000000  2024  
+2                431.558148       -191000000  2025  
+3                444.137280       -191000000  2026  
+4                457.083070       -191000000  2027  
+5                470.406207       -191000000  2028  
+6                484.117689       -191000000  2029  
+7                498.228836       -191000000  2030  
+8                512.751296       -191000000  2031  
+9                527.697060       -191000000  2032  
+Multipliers for Egypt: {'Tourism expenditures': np.float64(6.0175920835623975), 'Tourism receipts': np.float64(43.893733316384896), 'receipts_per_tourist': np.float64(8.29656216018592), 'expenditures_per_tourist': np.float64(1.2512274770308807), 'tourism_balance': np.float64(-22.847234331105298)}
+Multipliers for Morocco: {'Tourism expenditures': np.float64(3.9666849917537106), 'Tourism receipts': np.float64(37.12673191813906), 'receipts_per_tourist': np.float64(7.902530956583472), 'expenditures_per_tourist': np.float64(0.8357915527380961), 'tourism_balance': np.float64(-21.304078271820206)}
+Multipliers for Jordan: {'Tourism expenditures': np.float64(2.3863661352391423), 'Tourism receipts': np.float64(18.97241642303292), 'receipts_per_tourist': np.float64(6.514904461614839), 'expenditures_per_tourist': np.float64(0.8103037317304329), 'tourism_balance': np.float64(-10.253608447156834)}
+Multipliers for Tunisia: {'Tourism expenditures': np.float64(1.3678944474986257), 'Tourism receipts': np.float64(13.486716664548112), 'receipts_per_tourist': np.float64(3.677391991346812), 'expenditures_per_tourist': np.float64(0.383984845840411), 'tourism_balance': np.float64(-7.867674125738641)}
+Comparison of Future Forecasts:
+    year  Predicted Number of Tourists         Scenario
+0   2023                     3933930.0         Baseline
+1   2024                     3933930.0         Baseline
+2   2025                     3933930.0         Baseline
+3   2026                     3933930.0         Baseline
+4   2027                     3933930.0         Baseline
+5   2028                     3933930.0         Baseline
+6   2029                     3933930.0         Baseline
+7   2030                     3933930.0         Baseline
+8   2031                     3933930.0         Baseline
+9   2032                     3933930.0         Baseline
+10  2023                     3328570.0    Policy: Egypt
+11  2024                     3328570.0    Policy: Egypt
+12  2025                     3328570.0    Policy: Egypt
+13  2026                     3328570.0    Policy: Egypt
+14  2027                     3328570.0    Policy: Egypt
+15  2028                     3328570.0    Policy: Egypt
+16  2029                     3328570.0    Policy: Egypt
+17  2030                     3328570.0    Policy: Egypt
+18  2031                     3328570.0    Policy: Egypt
+19  2032                     3328570.0    Policy: Egypt
+20  2023                     3328570.0  Policy: Morocco
+21  2024                     3328570.0  Policy: Morocco
+22  2025                     3328570.0  Policy: Morocco
+23  2026                     3328570.0  Policy: Morocco
+24  2027                     3328570.0  Policy: Morocco
+25  2028                     3328570.0  Policy: Morocco
+26  2029                     3328570.0  Policy: Morocco
+27  2030                     3328570.0  Policy: Morocco
+28  2031                     3328570.0  Policy: Morocco
+29  2032                     3328570.0  Policy: Morocco
+30  2023                     2962410.0   Policy: Jordan
+31  2024                     2982690.0   Policy: Jordan
+32  2025                     3000440.0   Policy: Jordan
+33  2026                     3000440.0   Policy: Jordan
+34  2027                     2999740.0   Policy: Jordan
+35  2028                     3706850.0   Policy: Jordan
+36  2029                     3903470.0   Policy: Jordan
+37  2030                     3769710.0   Policy: Jordan
+38  2031                     3769710.0   Policy: Jordan
+39  2032                     3755990.0   Policy: Jordan
+40  2023                     3933930.0  Policy: Tunisia
+41  2024                     3933930.0  Policy: Tunisia
+42  2025                     3933930.0  Policy: Tunisia
+43  2026                     3933930.0  Policy: Tunisia
+44  2027                     3933930.0  Policy: Tunisia
+45  2028                     3933930.0  Policy: Tunisia
+46  2029                     3933930.0  Policy: Tunisia
+47  2030                     3933930.0  Policy: Tunisia
+48  2031                     3933930.0  Policy: Tunisia
+49  2032                     3933930.0  Policy: Tunisia
+C:\Users\HP\anaconda3\envs\tf_env\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+C:\Users\HP\anaconda3\envs\tf_env\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+C:\Users\HP\anaconda3\envs\tf_env\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+C:\Users\HP\anaconda3\envs\tf_env\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(
+C:\Users\HP\anaconda3\envs\tf_env\lib\site-packages\sklearn\utils\validation.py:2739: UserWarning: X does not have valid feature names, but StandardScaler was fitted with feature names
+  warnings.warn(

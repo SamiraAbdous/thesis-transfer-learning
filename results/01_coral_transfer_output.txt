@@ -1,0 +1,31 @@
+Columns in dataset: ['year', 'id', 'Number of tourists', 'Tourism expenditures', 'Tourism receipts']
+Training CORAL model using Egypt's data...
+Previous covariance difference: 0.534994
+New covariance difference: 0.000002
+Source R²: 0.543, MSE: 3896371235360, MAPE: 21.26%
+Target R²: -70.953, MSE: 29074688832628, MAPE: 380.18%
+Training CORAL model using Morocco's data...
+Previous covariance difference: 0.568942
+New covariance difference: 0.000021
+Source R²: 0.463, MSE: 4624278167880, MAPE: 32.44%
+Target R²: -121.055, MSE: 49319565349918, MAPE: 483.94%
+Training CORAL model using Jordan's data...
+Previous covariance difference: 0.839076
+New covariance difference: 0.000020
+Source R²: -0.514, MSE: 3704634021120, MAPE: 50.06%
+Target R²: -21.959, MSE: 9277226702137, MAPE: 209.56%
+Training CORAL model using Tunisia's data...
+Previous covariance difference: 0.573466
+New covariance difference: 0.000060
+Source R²: 0.161, MSE: 651618541680, MAPE: 11.55%
+Target R²: -32.980, MSE: 13730548877227, MAPE: 253.91%
+CORAL - Performance Comparison on Algeria Data:
+          Target_R2    Target_MSE  Target_MAPE
+Jordan   -21.958996  9.277227e+12     2.095604
+Tunisia  -32.979940  1.373055e+13     2.539134
+Egypt    -70.953146  2.907469e+13     3.801785
+Morocco -121.054545  4.931957e+13     4.839372
+🏆 Best CORAL Model: using Jordan's data (Target R² = -21.959)
+C:\Users\HP\AppData\Local\Temp\ipykernel_1912\3380710118.py:193: FutureWarning: 
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+  sns.barplot(x="Importance", y="Feature", data=importance_df, palette="viridis")
